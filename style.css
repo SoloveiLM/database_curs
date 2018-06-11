@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+body
+
+{
+	width:800px;
+    margin:0 auto;
+
+	}
+	fieldset{
+		width:700px;
+background: rgba(227,227,227,1.00);
+
+}
+
+		label
+	{
+	 display: block;
+	 float: left;
+	 width: 350px;
+	 padding: 0 10px;
+	 margin: 18px 0 0;
+	 text-align: left;
+
+	 }
+	 #submit
+	 {
+		 float:right;
+		 margin:5px 50px 10px 0;
+		 background: rgba(192, 192, 192);
+
+		 }
+
+table{
+	border-collapse: collapse;
+	width: 80%;
+	font-size: 11pt;
+	}
+	table,th,td{
+border:10px solid rgd(0,0,0);
+
+	}
+	th{
+background: rgba(70,129,147,1.00);
+color: white;
+font-size: 15pt;
+      }
+	  tr:nth-child(odd){
+		  background: rgba(227,227,227,1.00);
+		  }
+
